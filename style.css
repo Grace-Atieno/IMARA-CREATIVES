@@ -1,0 +1,118 @@
+/* ==== IMARA CREATIVES CSS ==== */
+
+/* Reset & Fonts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #000; /* Black background */
+  color: #fff; /* Default white text */
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #d4af37; /* Gold border */
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #d4af37; /* Gold */
+  letter-spacing: 2px;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #d4af37;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url('images/hero-bg.jpg') center/cover;
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  color: #d4af37;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 20px auto;
+  font-size: 1.1rem;
+}
+
+.hero button {
+  background-color: #d4af37;
+  color: #000;
+  padding: 12px 30px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.hero button:hover {
+  background-color: #b38f2a; /* Darker gold */
+}
+
+/* Section Styles */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+section h2 {
+  color: #d4af37;
+  margin-bottom: 20px;
+}
+
+section p {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  border-top: 2px solid #d4af37;
+}
+
+footer a {
+  color: #d4af37;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+

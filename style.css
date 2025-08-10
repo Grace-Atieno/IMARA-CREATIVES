@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* ==== IMARA CREATIVES CSS ==== */
 
 /* Reset & Fonts */
@@ -35,10 +36,30 @@ nav ul {
   justify-content: center;
   gap: 30px;
   margin-top: 10px;
+=======
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+header {
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #f9c531;
+>>>>>>> a85296b17bffc1e29e6e62b3b52f854c528fac6f
 }
 
 nav a {
   color: #fff;
+<<<<<<< HEAD
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
@@ -116,3 +137,32 @@ footer a:hover {
   text-decoration: underline;
 }
 
+=======
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.btn {
+  background-color: #f9c531;
+  color: #000;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #111;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+>>>>>>> a85296b17bffc1e29e6e62b3b52f854c528fac6f
